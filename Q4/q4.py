@@ -10,7 +10,7 @@ def main() -> int:
     new_df = df[['2022년_계_총인구수','2022년_남_총인구수','2022년_여_총인구수']]
 
     # 컬럼 이름 변경(총 인구수 -> Total, 남 총 인구수 -> Male, 여 총 인구수 -> Female)
-    new_df.columns = ['Total', 'Make', 'Female']
+    new_df.columns = ['Total', 'Male', 'Female']
 
     # 최종 데이터프레임 전체 출력
     print(new_df)
